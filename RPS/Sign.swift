@@ -48,40 +48,40 @@ enum Sign {
             
         case .rock:
             if AISign == .rock {
-                return GameState.tie
+                return GameState.Tie
             }
             if AISign == .paper {
-                return GameState.lose
+                return GameState.Lose
             }
             if AISign == .scissors {
-                return GameState.win
+                return GameState.Win
             }
             
         case .paper:
             if AISign == .rock {
-                return GameState.win
+                return GameState.Win
             }
             if AISign == .paper {
-                return GameState.tie
+                return GameState.Tie
             }
             if AISign == .scissors {
-                return GameState.lose
+                return GameState.Lose
             }
             
         case .scissors:
             if AISign == .rock {
-                return GameState.lose
+                return GameState.Lose
             }
             else if AISign == .paper {
-                return GameState.win
+                return GameState.Win
             }
             else if AISign == .scissors {
-                return GameState.tie
+                return GameState.Tie
             }
             
         }
         
-        return GameState.start
+        return GameState.Start
         
     }
     

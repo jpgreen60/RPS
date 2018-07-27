@@ -9,7 +9,7 @@
 import Foundation
 
 enum GameState {
-    case start, win, lose, tie
+    case Start, Win, Lose, Tie
 }
 
 
