@@ -10,16 +10,30 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var appSign: UILabel!
+    @IBOutlet weak var gameStatus: UILabel!
+    @IBOutlet weak var signRock: UIButton!
+    @IBOutlet weak var signPaper: UIButton!
+    @IBOutlet weak var signScissors: UIButton!
+    @IBOutlet weak var playAgain: UIButton!
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func rockBtnTapped(_ sender: UIButton) {
     }
-
-
+    
+    @IBAction func paperBtnTapped(_ sender: UIButton) {
+    }
+    
+    @IBAction func scissorsBtnTapped(_ sender: UIButton) {
+    }
+    
+    @IBAction func playAgainBtnTapped(_ sender: UIButton) {
+    }
+    
+    
 }
 
